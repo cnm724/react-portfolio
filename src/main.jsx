@@ -9,7 +9,8 @@ import "./index.css";
 import Error from "./components/pages/Error";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-// import Contact from "./components/pages/Contact";
+import Contact from "./components/pages/Contact";
+import Projects from "./components/pages/ProjectPage"
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -26,10 +27,14 @@ const router = createBrowserRouter([
         path: "/About",
         element: <About />,
       },
-      // {
-      //   path: "/Contact",
-      //   element: <Contact />,
-      // },
+      {
+        path: "/Contact",
+        element: <Contact />,
+      },
+      {
+        path: "/Projects",
+        element: <Projects />,
+      },
     ]
 
   }

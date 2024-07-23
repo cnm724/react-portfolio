@@ -14,3 +14,16 @@ bootstraps
 react
 vite
 eslint ?
+
+credits:
+center bootstrap navbar title: https://stackoverflow.com/questions/43497560/center-bootstrap-navbar-title
+
+How to make image clickable: https://stackoverflow.com/questions/47189442/how-to-make-image-clickable
+
+In reactJS, how to copy text to clipboard? https://stackoverflow.com/questions/39501289/in-reactjs-how-to-copy-text-to-clipboard
+
+How to make a pdf download on a button click with react? https://stackoverflow.com/questions/60922523/how-to-make-a-pdf-download-on-a-button-click-with-react
+
+socials icons: https://icon-sets.iconify.design/?query=stack+overflow
+
+
