@@ -8,10 +8,6 @@ body {
   justify-content: space-evenly;
 }
 
-div .card {
-  border: 20px;
-}
-
 .card {
   border: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
