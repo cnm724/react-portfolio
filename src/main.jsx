@@ -10,7 +10,8 @@ import Error from "./components/pages/Error";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
-import Projects from "./components/pages/ProjectPage"
+import Projects from "./components/pages/ProjectPage";
+import Resume from "./components/pages/Resume";
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/Projects",
         element: <Projects />,
+      },
+      {
+        path: "/Resume",
+        element: <Resume />,
       },
     ]
 
