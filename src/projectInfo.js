@@ -26,7 +26,14 @@ const projectInfo = [
     image: "blogPost",
     github: "https://github.com/cnm724/my_first_blog",
     liveLink: "https://delicate-marshmallow-f8098e.netlify.app/"
-  }, 
+  },
+  {
+    projectName: "Project 3",
+    description: "coming soon",
+    image: "comingSoon",
+    github: "https://github.com/cnm724",
+    liveLink: "#"
+  },
   {
     projectName: "Project 3",
     description: "coming soon",

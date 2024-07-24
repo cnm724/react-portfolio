@@ -8,7 +8,6 @@ import App from "./App";
 import "./index.css";
 import Error from "./components/pages/Error";
 import Home from "./components/pages/Home";
-import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/ProjectPage";
 import Resume from "./components/pages/Resume";
@@ -23,10 +22,6 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
-      },
-      {
-        path: "/About",
-        element: <About />,
       },
       {
         path: "/Contact",

@@ -1,5 +1,5 @@
 :root {
-  --raisinBlack: #1E1E24; 
+  --raisinBlack: #1E1E24;
   --Moonstone: #66999B;
   --Onyx: #36393B;
   --white: #FBFBFB;
@@ -25,9 +25,16 @@ svg {
 }
 
 svg:hover {
-  color: var(--Moonstone);
+  color: var(--roseQuartz);
 }
 
 /* charcoal: #111215; */
 
-.nav-link
+.nav-link {
+  font-size: large;
+}
+
+.nav-link:hover {
+  color: var(--roseQuartz);
+  border-radius: 8px;
+}

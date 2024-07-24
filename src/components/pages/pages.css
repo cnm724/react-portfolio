@@ -1,5 +1,18 @@
+:root {
+  --raisinBlack: #1E1E24; 
+  --Moonstone: #66999B;
+  --Onyx: #36393B;
+  --white: #FBFBFB;
+  --roseQuartz: #BCABAE;
+}
+
 .card {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+}
+
+.card-title {
+  font-size: medium;
 }
 
 .space {
@@ -26,5 +39,61 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
+.home {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.name {
+  text-align: center;
+}
+
+.summary {
+  text-align: center;
+  font-size: 18px;
+}
+
+.resumeInfo {
+  align-items: center;
+}
+
+.resumePic {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.resumeLink {
+  background-color: var(--raisinBlack);
+  border: none;
+}
+
+.resumeLink:hover {
+  background-color: var(--roseQuartz);
+}
+
+.submit {
+  background-color: var(--raisinBlack);
+  border: none;
+  color: var(--white);
+  margin: 10px;
+}
+
+.submit:hover {
+  background-color: var(--roseQuartz);
+}
+
+.input {
+  margin: 10px;
+}
+
+.card-link {
+  background-color: var(--raisinBlack);
+  border: none;
+  color: var(--white);
+}
+
+.card-link:hover {
+  background-color: var(--roseQuartz);
 }

@@ -80,7 +80,7 @@ function Form() {
             placeholder="message"
             className="input form-control"
           />
-          <button type="submit">Submit</button>
+          <button className="submit" type="submit">Submit</button>
         </form>
         {errorMessage && (
           <div>
