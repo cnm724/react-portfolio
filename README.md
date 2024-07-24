@@ -15,6 +15,7 @@
 ## Table of Contents
 
 - [Description](#description)
+- [Live Link](#liveLink)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -23,6 +24,10 @@
 ## Description
 
 My React Profile project was built as a online presence to demonstrate my knowledge of full-stack coding. This application displays what I have learned thus far using react and vite. On the webpage you will find: a brief about me section, my experience, projects I have created, and a section to reach out to me.
+
+## Live Link
+
+[Click here to check out my portfolio powered by Netlify](https://portfoliocourtneym.netlify.app/)
 
 ## Installation
 
