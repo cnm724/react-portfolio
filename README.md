@@ -26,4 +26,4 @@ How to make a pdf download on a button click with react? https://stackoverflow.c
 
 socials icons: https://icon-sets.iconify.design/?query=stack+overflow
 
-
+keeping the footer on the bottom: https://stackoverflow.com/questions/39857425/react-page-keep-footer-at-the-bottom-of-the-page

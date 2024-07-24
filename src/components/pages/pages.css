@@ -1,0 +1,30 @@
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.space {
+  padding: 25px;
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.input {
+  padding: 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

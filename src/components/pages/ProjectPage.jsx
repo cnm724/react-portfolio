@@ -1,17 +1,17 @@
 import { useState } from "react";
 import projectInfo from "../../projectInfo";
 import * as projectImgs from "../../assets/projectImgs";
-import "./projectPage.css";
+import "./pages.css";
 // import { Container, Row, Col, Stack, Image, Nav, NavLink } from "react-bootstrap";
 
 function ProjectCard(projectInfo) {
   return (
-    <div className="col-sm-6 col-md-4 col-lg-3 mb-3">
+    <div className="space col-sm-6 col-md-4 col-lg-3 mb-3">
       <div className="card mb-3" style={{ width: "18rem" }}>
         <img className="card-img-top" style={{ height: "150px", width: "100%", objectFit: "cover" }} src={projectImgs[projectInfo.image]} alt={`${projectInfo.projectName} project image`} />
         <div className="card-body">
           <h5 className="card-title">{projectInfo.projectName}</h5>
-          <p className="card-text">{projectInfo.description}</p>
+          {/* <p className="card-text">{projectInfo.description}</p> */}
         </div>
         <div className="card-body">
           <button href={projectInfo.github} className="card-link">Github</button>
