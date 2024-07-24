@@ -2,7 +2,6 @@ import { useState } from "react";
 import projectInfo from "../../projectInfo";
 import * as projectImgs from "../../assets/projectImgs";
 import "./pages.css";
-// import { Container, Row, Col, Stack, Image, Nav, NavLink } from "react-bootstrap";
 
 function ProjectCard(projectInfo) {
   return (
@@ -14,8 +13,8 @@ function ProjectCard(projectInfo) {
           {/* <p className="card-text">{projectInfo.description}</p> */}
         </div>
         <div className="card-body">
-          <button href={projectInfo.github} className="card-link">Github</button>
-          <button href={projectInfo.liveLink} className="card-link">Live Link</button>
+          <a href={projectInfo.github} className="btn btn-primary card-link">Github</a>
+          <a href={projectInfo.liveLink} className="btn btn-primary card-link">Live Link</a>
         </div>
       </div>
     </div>
