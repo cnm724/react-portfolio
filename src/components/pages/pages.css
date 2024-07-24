@@ -3,7 +3,7 @@
   --Moonstone: #66999B;
   --Onyx: #36393B;
   --white: #FBFBFB;
-  --roseQuartz: #BCABAE;
+  --roseQuartz: #A3D9FF;
 }
 
 .card {
@@ -53,6 +53,7 @@
 .summary {
   text-align: center;
   font-size: 18px;
+  border-bottom: 1px solid black;
 }
 
 .resumeInfo {
@@ -96,4 +97,12 @@
 
 .card-link:hover {
   background-color: var(--roseQuartz);
+}
+
+.projectImg {
+  border-radius: 5px;
+}
+
+.error-text {
+  text-align: center;
 }

@@ -3,7 +3,7 @@
   --Moonstone: #66999B;
   --Onyx: #36393B;
   --white: #FBFBFB;
-  --roseQuartz: #BCABAE;
+  --roseQuartz: #A3D9FF;
 }
 
 .footer {
@@ -28,13 +28,20 @@ svg:hover {
   color: var(--roseQuartz);
 }
 
-/* charcoal: #111215; */
-
 .nav-link {
   font-size: large;
 }
 
 .nav-link:hover {
-  color: var(--roseQuartz);
+  color: var(--Onyx);
   border-radius: 8px;
+}
+
+.nav-link.active {
+  background-color: var(--roseQuartz) ;
+}
+
+.nav-link.active:hover {
+  background-color: var(--roseQuartz) ;
+
 }

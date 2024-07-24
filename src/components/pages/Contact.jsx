@@ -26,20 +26,16 @@ function Form() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !name || !message) {
       setErrorMessage('please finish filling out the form!');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
-      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
     alert(`Thank you for the message ${name}!`)
 
-
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
     setMessage('');
     setEmail('');
+    setErrorMessage('');
   };
 
   return (
@@ -84,7 +80,7 @@ function Form() {
         </form>
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className="error-text alert alert-danger" role="alert">{errorMessage}</p>
           </div>
         )}
 
