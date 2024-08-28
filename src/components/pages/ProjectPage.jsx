@@ -6,7 +6,7 @@ import "./pages.css";
 function ProjectCard(projectInfo) {
   return (
     <div className="space col-sm-6 col-md-4 col-lg-3 mb-3">
-      <div className="card mb-3" style={{ width: "18rem" }}>
+      <div className="card mb-3" style={{ width: "25rem" }}>
         <img className="card-img-top" style={{ height: "150px", width: "100%", objectFit: "cover" }} src={projectImgs[projectInfo.image]} alt={`${projectInfo.projectName} project image`} />
         <div className="card-body">
           <h5 className="card-title">{projectInfo.projectName}</h5>

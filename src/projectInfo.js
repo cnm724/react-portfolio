@@ -30,10 +30,10 @@ const projectInfo = [
     liveLink: "https://note-taker-express-3f5r.onrender.com/"
   },
   {
-    projectName: "Group Project 3",
-    image: "comingSoon",
-    github: "https://github.com/cnm724",
-    liveLink: "#"
+    projectName: "Radiant Soul Esthetics",
+    image: "project3",
+    github: "https://github.com/MmalcolmM/radiant-soul-esthetics-",
+    liveLink: "https://radiant-soul-esthetics.onrender.com/"
   },
   {
     projectName: "Project",
